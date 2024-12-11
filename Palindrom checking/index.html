@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palindrome Checker</title>
+    <style>
+        body{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: rgb(28, 28, 63);
+        }
+
+        form{
+            font-size: 20px;
+            color: white;
+        }
+        form input{
+            width: 400px;
+        }
+        p{
+            color:  rgb(0, 255, 55);
+            text-shadow: 0px 0px 10px rgb(0, 255, 55);
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+<form action="">
+    <label for="text">Enter text: </label><br>
+    <input type="text" id="text" name="text" required>
+    <button id="clickMe">Check</button>
+    <p id="output"></p>
+</form>
+
+<script src="app.js"></script>
+</body>
+</html>
