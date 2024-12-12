@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom manipulation 2</title>
+    <style>
+
+        body{
+            background-color: rgb(35, 35, 93);
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            justify-content: center;
+            align-items: center;
+        }
+
+        form{
+            color: white;
+            margin: 10px;
+        }
+        form > select{
+            margin-bottom: 30px;
+            padding: 5px 2px;
+        }
+
+
+    </style>
+</head>
+<body>
+
+    <form action="">
+        <label for="items">Select Items: </label>
+        <select name="vehicles" id="items">
+            <option value="car">Car</option>
+            <option value="superCar">Super Car</option>
+            <option value="hyperCar">Hyper Car</option>
+            <option value="superBike">Super Bike</option>
+            <option value="hyperBike">hyper Bike</option>
+        </select><br>
+        <button id="output">Click me</button>
+    </form>
+    
+    <script src="app.js"></script>
+</body>
+</html>
