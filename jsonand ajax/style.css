@@ -1,0 +1,12 @@
+#btn {
+    color: rgb(17, 16, 16);
+    background-color: teal;
+    padding: 10px;
+    position: relative;
+    top: 20px;
+    left: 30px;
+}
+
+.hide-me {
+    visibility: hidden;
+}
